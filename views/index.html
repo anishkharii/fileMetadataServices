@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>File Metadata Microservice</title>
+        <link rel="stylesheet" href="/public/styles.css">
+    </head>
+    <body>
+        <h1>File Metadata MicroService</h1>
+        <hr>
+        <div class="section">
+            <h3>Upload File</h3>
+            <form method="post" action="/api/fileanalyse" enctype="multipart/form-data">
+                <input type="file" name="upfile" required />
+                <br><button type="submit">Upload</button>
+            </form>
+        </div>
+    </body>
+</html>
